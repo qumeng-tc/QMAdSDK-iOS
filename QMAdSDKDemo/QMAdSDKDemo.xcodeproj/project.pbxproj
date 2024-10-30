@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84036C2B2CA64FE600F94917 /* QMFeedAdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036BFB2CA64FE600F94917 /* QMFeedAdCell.m */; };
+		84036C2C2CA64FE600F94917 /* QMFeedDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036BFD2CA64FE600F94917 /* QMFeedDemoViewController.m */; };
+		84036C2D2CA64FE600F94917 /* QMInterstitialConf.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C002CA64FE600F94917 /* QMInterstitialConf.m */; };
+		84036C2E2CA64FE600F94917 /* QMNativeAtlasImgeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C032CA64FE600F94917 /* QMNativeAtlasImgeCell.m */; };
+		84036C2F2CA64FE600F94917 /* QMNativeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C052CA64FE600F94917 /* QMNativeCell.m */; };
+		84036C302CA64FE600F94917 /* QMNativeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C072CA64FE600F94917 /* QMNativeDemoViewController.m */; };
+		84036C312CA64FE600F94917 /* QMNativeSingleImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C092CA64FE600F94917 /* QMNativeSingleImageCell.m */; };
+		84036C322CA64FE600F94917 /* QMNativeVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C0B2CA64FE600F94917 /* QMNativeVideoCell.m */; };
+		84036C332CA64FE600F94917 /* QMRewardedVideoConf.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C0E2CA64FE600F94917 /* QMRewardedVideoConf.m */; };
+		84036C342CA64FE600F94917 /* QMSplashAdConf.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C112CA64FE600F94917 /* QMSplashAdConf.m */; };
+		84036C352CA64FE600F94917 /* QMSplashNativeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C132CA64FE600F94917 /* QMSplashNativeView.m */; };
+		84036C362CA64FE600F94917 /* QMBaseDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C182CA64FE600F94917 /* QMBaseDemoViewController.m */; };
+		84036C372CA64FE600F94917 /* QMBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C1A2CA64FE600F94917 /* QMBaseNavigationController.m */; };
+		84036C382CA64FE600F94917 /* MBProgressHUD+QMAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C1D2CA64FE600F94917 /* MBProgressHUD+QMAD.m */; };
+		84036C392CA64FE600F94917 /* UIColor+QMAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C1F2CA64FE600F94917 /* UIColor+QMAD.m */; };
+		84036C3A2CA64FE600F94917 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C232CA64FE600F94917 /* AppDelegate.m */; };
+		84036C3B2CA64FE600F94917 /* bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84036C242CA64FE600F94917 /* bg@3x.png */; };
+		84036C3C2CA64FE600F94917 /* LaunchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C262CA64FE600F94917 /* LaunchScreenViewController.m */; };
+		84036C3D2CA64FE600F94917 /* qumeng_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84036C272CA64FE600F94917 /* qumeng_logo.png */; };
+		84036C3E2CA64FE600F94917 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C292CA64FE600F94917 /* ViewController.m */; };
+		84036C432CA652A700F94917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84036C402CA652A700F94917 /* LaunchScreen.storyboard */; };
+		84036C442CA652A700F94917 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036C412CA652A700F94917 /* main.m */; };
+		84036CF52CA6830300F94917 /* UIInterface+QMRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84036CF32CA6830300F94917 /* UIInterface+QMRotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8476D6472BD1357900E8F034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84469FED2B8345B100C2BED4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84469FF42B8345B100C2BED4;
+			remoteInfo = QMAdSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8476D6512BD1357900E8F034 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84036BFA2CA64FE600F94917 /* QMFeedAdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMFeedAdCell.h; sourceTree = "<group>"; };
+		84036BFB2CA64FE600F94917 /* QMFeedAdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMFeedAdCell.m; sourceTree = "<group>"; };
+		84036BFC2CA64FE600F94917 /* QMFeedDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMFeedDemoViewController.h; sourceTree = "<group>"; };
+		84036BFD2CA64FE600F94917 /* QMFeedDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMFeedDemoViewController.m; sourceTree = "<group>"; };
+		84036BFF2CA64FE600F94917 /* QMInterstitialConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMInterstitialConf.h; sourceTree = "<group>"; };
+		84036C002CA64FE600F94917 /* QMInterstitialConf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMInterstitialConf.m; sourceTree = "<group>"; };
+		84036C022CA64FE600F94917 /* QMNativeAtlasImgeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMNativeAtlasImgeCell.h; sourceTree = "<group>"; };
+		84036C032CA64FE600F94917 /* QMNativeAtlasImgeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMNativeAtlasImgeCell.m; sourceTree = "<group>"; };
+		84036C042CA64FE600F94917 /* QMNativeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMNativeCell.h; sourceTree = "<group>"; };
+		84036C052CA64FE600F94917 /* QMNativeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMNativeCell.m; sourceTree = "<group>"; };
+		84036C062CA64FE600F94917 /* QMNativeDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMNativeDemoViewController.h; sourceTree = "<group>"; };
+		84036C072CA64FE600F94917 /* QMNativeDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMNativeDemoViewController.m; sourceTree = "<group>"; };
+		84036C082CA64FE600F94917 /* QMNativeSingleImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMNativeSingleImageCell.h; sourceTree = "<group>"; };
+		84036C092CA64FE600F94917 /* QMNativeSingleImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMNativeSingleImageCell.m; sourceTree = "<group>"; };
+		84036C0A2CA64FE600F94917 /* QMNativeVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMNativeVideoCell.h; sourceTree = "<group>"; };
+		84036C0B2CA64FE600F94917 /* QMNativeVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMNativeVideoCell.m; sourceTree = "<group>"; };
+		84036C0D2CA64FE600F94917 /* QMRewardedVideoConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMRewardedVideoConf.h; sourceTree = "<group>"; };
+		84036C0E2CA64FE600F94917 /* QMRewardedVideoConf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMRewardedVideoConf.m; sourceTree = "<group>"; };
+		84036C102CA64FE600F94917 /* QMSplashAdConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMSplashAdConf.h; sourceTree = "<group>"; };
+		84036C112CA64FE600F94917 /* QMSplashAdConf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMSplashAdConf.m; sourceTree = "<group>"; };
+		84036C122CA64FE600F94917 /* QMSplashNativeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMSplashNativeView.h; sourceTree = "<group>"; };
+		84036C132CA64FE600F94917 /* QMSplashNativeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMSplashNativeView.m; sourceTree = "<group>"; };
+		84036C152CA64FE600F94917 /* QMBaseConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMBaseConf.h; sourceTree = "<group>"; };
+		84036C172CA64FE600F94917 /* QMBaseDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMBaseDemoViewController.h; sourceTree = "<group>"; };
+		84036C182CA64FE600F94917 /* QMBaseDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMBaseDemoViewController.m; sourceTree = "<group>"; };
+		84036C192CA64FE600F94917 /* QMBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMBaseNavigationController.h; sourceTree = "<group>"; };
+		84036C1A2CA64FE600F94917 /* QMBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMBaseNavigationController.m; sourceTree = "<group>"; };
+		84036C1C2CA64FE600F94917 /* MBProgressHUD+QMAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+QMAD.h"; sourceTree = "<group>"; };
+		84036C1D2CA64FE600F94917 /* MBProgressHUD+QMAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+QMAD.m"; sourceTree = "<group>"; };
+		84036C1E2CA64FE600F94917 /* UIColor+QMAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+QMAD.h"; sourceTree = "<group>"; };
+		84036C1F2CA64FE600F94917 /* UIColor+QMAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QMAD.m"; sourceTree = "<group>"; };
+		84036C222CA64FE600F94917 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84036C232CA64FE600F94917 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84036C242CA64FE600F94917 /* bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@3x.png"; sourceTree = "<group>"; };
+		84036C252CA64FE600F94917 /* LaunchScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchScreenViewController.h; sourceTree = "<group>"; };
+		84036C262CA64FE600F94917 /* LaunchScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchScreenViewController.m; sourceTree = "<group>"; };
+		84036C272CA64FE600F94917 /* qumeng_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qumeng_logo.png; sourceTree = "<group>"; };
+		84036C282CA64FE600F94917 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84036C292CA64FE600F94917 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84036C3F2CA652A700F94917 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84036C402CA652A700F94917 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84036C412CA652A700F94917 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84036CF22CA6830300F94917 /* UIInterface+QMRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIInterface+QMRotation.h"; sourceTree = "<group>"; };
+		84036CF32CA6830300F94917 /* UIInterface+QMRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIInterface+QMRotation.m"; sourceTree = "<group>"; };
+		84469FF52B8345B100C2BED4 /* QMAdSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMAdSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8476D6432BD1357900E8F034 /* QMAdSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QMAdSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C28B932BD15775009A1A6D /* InnoSecureSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InnoSecureSDK.framework; path = ../QMAdSDK/QMAdSDK/Frameworks/InnoSecureSDK.framework; sourceTree = "<group>"; };
+		84C28B942BD15775009A1A6D /* libInnoSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libInnoSDK.a; path = ../QMAdSDK/QMAdSDK/Frameworks/libInnoSDK.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84469FF22B8345B100C2BED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8476D6402BD1357900E8F034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71AE5F15E9FE83C36AF6E2D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84C28B932BD15775009A1A6D /* InnoSecureSDK.framework */,
+				84C28B942BD15775009A1A6D /* libInnoSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84036BFE2CA64FE600F94917 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				84036BFA2CA64FE600F94917 /* QMFeedAdCell.h */,
+				84036BFB2CA64FE600F94917 /* QMFeedAdCell.m */,
+				84036BFC2CA64FE600F94917 /* QMFeedDemoViewController.h */,
+				84036BFD2CA64FE600F94917 /* QMFeedDemoViewController.m */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		84036C012CA64FE600F94917 /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				84036BFF2CA64FE600F94917 /* QMInterstitialConf.h */,
+				84036C002CA64FE600F94917 /* QMInterstitialConf.m */,
+			);
+			path = Interstitial;
+			sourceTree = "<group>";
+		};
+		84036C0C2CA64FE600F94917 /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				84036C022CA64FE600F94917 /* QMNativeAtlasImgeCell.h */,
+				84036C032CA64FE600F94917 /* QMNativeAtlasImgeCell.m */,
+				84036C042CA64FE600F94917 /* QMNativeCell.h */,
+				84036C052CA64FE600F94917 /* QMNativeCell.m */,
+				84036C062CA64FE600F94917 /* QMNativeDemoViewController.h */,
+				84036C072CA64FE600F94917 /* QMNativeDemoViewController.m */,
+				84036C082CA64FE600F94917 /* QMNativeSingleImageCell.h */,
+				84036C092CA64FE600F94917 /* QMNativeSingleImageCell.m */,
+				84036C0A2CA64FE600F94917 /* QMNativeVideoCell.h */,
+				84036C0B2CA64FE600F94917 /* QMNativeVideoCell.m */,
+			);
+			path = Native;
+			sourceTree = "<group>";
+		};
+		84036C0F2CA64FE600F94917 /* RewardedVideo */ = {
+			isa = PBXGroup;
+			children = (
+				84036C0D2CA64FE600F94917 /* QMRewardedVideoConf.h */,
+				84036C0E2CA64FE600F94917 /* QMRewardedVideoConf.m */,
+			);
+			path = RewardedVideo;
+			sourceTree = "<group>";
+		};
+		84036C142CA64FE600F94917 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				84036C102CA64FE600F94917 /* QMSplashAdConf.h */,
+				84036C112CA64FE600F94917 /* QMSplashAdConf.m */,
+				84036C122CA64FE600F94917 /* QMSplashNativeView.h */,
+				84036C132CA64FE600F94917 /* QMSplashNativeView.m */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		84036C162CA64FE600F94917 /* Ad */ = {
+			isa = PBXGroup;
+			children = (
+				84036BFE2CA64FE600F94917 /* Feed */,
+				84036C012CA64FE600F94917 /* Interstitial */,
+				84036C0C2CA64FE600F94917 /* Native */,
+				84036C0F2CA64FE600F94917 /* RewardedVideo */,
+				84036C142CA64FE600F94917 /* Splash */,
+				84036C152CA64FE600F94917 /* QMBaseConf.h */,
+			);
+			path = Ad;
+			sourceTree = "<group>";
+		};
+		84036C1B2CA64FE600F94917 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				84036C172CA64FE600F94917 /* QMBaseDemoViewController.h */,
+				84036C182CA64FE600F94917 /* QMBaseDemoViewController.m */,
+				84036C192CA64FE600F94917 /* QMBaseNavigationController.h */,
+				84036C1A2CA64FE600F94917 /* QMBaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		84036C202CA64FE600F94917 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				84036C1C2CA64FE600F94917 /* MBProgressHUD+QMAD.h */,
+				84036C1D2CA64FE600F94917 /* MBProgressHUD+QMAD.m */,
+				84036C1E2CA64FE600F94917 /* UIColor+QMAD.h */,
+				84036C1F2CA64FE600F94917 /* UIColor+QMAD.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		84036C212CA64FE600F94917 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				84036C1B2CA64FE600F94917 /* Base */,
+				84036C202CA64FE600F94917 /* Category */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		84036C2A2CA64FE600F94917 /* QMDemoMain */ = {
+			isa = PBXGroup;
+			children = (
+				84036CF42CA6830300F94917 /* RotationTool */,
+				84036C3F2CA652A700F94917 /* Info.plist */,
+				84036C402CA652A700F94917 /* LaunchScreen.storyboard */,
+				84036C412CA652A700F94917 /* main.m */,
+				84036C162CA64FE600F94917 /* Ad */,
+				84036C212CA64FE600F94917 /* Common */,
+				84036C222CA64FE600F94917 /* AppDelegate.h */,
+				84036C232CA64FE600F94917 /* AppDelegate.m */,
+				84036C242CA64FE600F94917 /* bg@3x.png */,
+				84036C252CA64FE600F94917 /* LaunchScreenViewController.h */,
+				84036C262CA64FE600F94917 /* LaunchScreenViewController.m */,
+				84036C272CA64FE600F94917 /* qumeng_logo.png */,
+				84036C282CA64FE600F94917 /* ViewController.h */,
+				84036C292CA64FE600F94917 /* ViewController.m */,
+			);
+			name = QMDemoMain;
+			path = ../QMDemoMain;
+			sourceTree = "<group>";
+		};
+		84036CF42CA6830300F94917 /* RotationTool */ = {
+			isa = PBXGroup;
+			children = (
+				84036CF22CA6830300F94917 /* UIInterface+QMRotation.h */,
+				84036CF32CA6830300F94917 /* UIInterface+QMRotation.m */,
+			);
+			path = RotationTool;
+			sourceTree = "<group>";
+		};
+		84469FEC2B8345B100C2BED4 = {
+			isa = PBXGroup;
+			children = (
+				84036C2A2CA64FE600F94917 /* QMDemoMain */,
+				84469FF62B8345B100C2BED4 /* Products */,
+				EB41EA6CB58614D09791375E /* Pods */,
+				71AE5F15E9FE83C36AF6E2D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84469FF62B8345B100C2BED4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84469FF52B8345B100C2BED4 /* QMAdSDKDemo.app */,
+				8476D6432BD1357900E8F034 /* QMAdSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB41EA6CB58614D09791375E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84469FF42B8345B100C2BED4 /* QMAdSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8446A00E2B8345B300C2BED4 /* Build configuration list for PBXNativeTarget "QMAdSDKDemo" */;
+			buildPhases = (
+				84469FF12B8345B100C2BED4 /* Sources */,
+				84469FF22B8345B100C2BED4 /* Frameworks */,
+				84469FF32B8345B100C2BED4 /* Resources */,
+				8476D6512BD1357900E8F034 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QMAdSDKDemo;
+			productName = QMAdSDKDemo;
+			productReference = 84469FF52B8345B100C2BED4 /* QMAdSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8476D6422BD1357900E8F034 /* QMAdSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8476D6572BD1357900E8F034 /* Build configuration list for PBXNativeTarget "QMAdSDKTests" */;
+			buildPhases = (
+				8476D63F2BD1357900E8F034 /* Sources */,
+				8476D6402BD1357900E8F034 /* Frameworks */,
+				8476D6412BD1357900E8F034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8476D6482BD1357900E8F034 /* PBXTargetDependency */,
+			);
+			name = QMAdSDKTests;
+			productName = QMAdSDKTests;
+			productReference = 8476D6432BD1357900E8F034 /* QMAdSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84469FED2B8345B100C2BED4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					84469FF42B8345B100C2BED4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					8476D6422BD1357900E8F034 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 84469FF42B8345B100C2BED4;
+					};
+				};
+			};
+			buildConfigurationList = 84469FF02B8345B100C2BED4 /* Build configuration list for PBXProject "QMAdSDKDemo" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84469FEC2B8345B100C2BED4;
+			productRefGroup = 84469FF62B8345B100C2BED4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84469FF42B8345B100C2BED4 /* QMAdSDKDemo */,
+				8476D6422BD1357900E8F034 /* QMAdSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84469FF32B8345B100C2BED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84036C3B2CA64FE600F94917 /* bg@3x.png in Resources */,
+				84036C432CA652A700F94917 /* LaunchScreen.storyboard in Resources */,
+				84036C3D2CA64FE600F94917 /* qumeng_logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8476D6412BD1357900E8F034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84469FF12B8345B100C2BED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84036C2B2CA64FE600F94917 /* QMFeedAdCell.m in Sources */,
+				84036C2C2CA64FE600F94917 /* QMFeedDemoViewController.m in Sources */,
+				84036C372CA64FE600F94917 /* QMBaseNavigationController.m in Sources */,
+				84036C362CA64FE600F94917 /* QMBaseDemoViewController.m in Sources */,
+				84036C392CA64FE600F94917 /* UIColor+QMAD.m in Sources */,
+				84036C2F2CA64FE600F94917 /* QMNativeCell.m in Sources */,
+				84036C332CA64FE600F94917 /* QMRewardedVideoConf.m in Sources */,
+				84036C3E2CA64FE600F94917 /* ViewController.m in Sources */,
+				84036C442CA652A700F94917 /* main.m in Sources */,
+				84036C302CA64FE600F94917 /* QMNativeDemoViewController.m in Sources */,
+				84036C2D2CA64FE600F94917 /* QMInterstitialConf.m in Sources */,
+				84036CF52CA6830300F94917 /* UIInterface+QMRotation.m in Sources */,
+				84036C312CA64FE600F94917 /* QMNativeSingleImageCell.m in Sources */,
+				84036C3C2CA64FE600F94917 /* LaunchScreenViewController.m in Sources */,
+				84036C382CA64FE600F94917 /* MBProgressHUD+QMAD.m in Sources */,
+				84036C322CA64FE600F94917 /* QMNativeVideoCell.m in Sources */,
+				84036C2E2CA64FE600F94917 /* QMNativeAtlasImgeCell.m in Sources */,
+				84036C3A2CA64FE600F94917 /* AppDelegate.m in Sources */,
+				84036C352CA64FE600F94917 /* QMSplashNativeView.m in Sources */,
+				84036C342CA64FE600F94917 /* QMSplashAdConf.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8476D63F2BD1357900E8F034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8476D6482BD1357900E8F034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84469FF42B8345B100C2BED4 /* QMAdSDKDemo */;
+			targetProxy = 8476D6472BD1357900E8F034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8446A00C2B8345B300C2BED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8446A00D2B8345B300C2BED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8446A00F2B8345B300C2BED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0223.1700;
+				DEVELOPMENT_TEAM = ZVX932ZEM8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ../QMDemoMain/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "趣盟";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "趣盟想使用您的数据追踪服务";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qumeng.sdk.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8446A0102B8345B300C2BED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0223.1700;
+				DEVELOPMENT_TEAM = ZVX932ZEM8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ../QMDemoMain/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "趣盟";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "趣盟想使用您的数据追踪服务";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qumeng.sdk.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8476D6542BD1357900E8F034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xusheng.QMAdSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QMAdSDKDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QMAdSDKDemo";
+			};
+			name = Debug;
+		};
+		8476D6552BD1357900E8F034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xusheng.QMAdSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QMAdSDKDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QMAdSDKDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84469FF02B8345B100C2BED4 /* Build configuration list for PBXProject "QMAdSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8446A00C2B8345B300C2BED4 /* Debug */,
+				8446A00D2B8345B300C2BED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8446A00E2B8345B300C2BED4 /* Build configuration list for PBXNativeTarget "QMAdSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8446A00F2B8345B300C2BED4 /* Debug */,
+				8446A0102B8345B300C2BED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8476D6572BD1357900E8F034 /* Build configuration list for PBXNativeTarget "QMAdSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8476D6542BD1357900E8F034 /* Debug */,
+				8476D6552BD1357900E8F034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84469FED2B8345B100C2BED4 /* Project object */;
+}
