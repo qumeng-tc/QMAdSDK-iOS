@@ -6,7 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <QMAdSDK/QMAdSDK-Swift.h>
+
+#import <QMAdSDK/QMAdSDK.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

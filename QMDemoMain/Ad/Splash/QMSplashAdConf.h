@@ -6,11 +6,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QMBaseConf.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface QMSplashAdConf : NSObject
+@protocol QMSplashAdConfDelegate <NSObject>
+@optional
+// 关闭开屏
+- (void)splashAdDidClose;
+@end
 
+@interface QMSplashAdConf : NSObject <QMBaseConf>
+@property (nonatomic, weak) id<QMSplashAdConfDelegate> delegate;
 @end
 
 NS_ASSUME_NONNULL_END

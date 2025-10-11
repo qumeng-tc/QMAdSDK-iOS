@@ -11,10 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIColor (QMAD)
 
-+ (UIColor *)colorWithHex:(nonnull NSString *)hex;
-- (NSString *)hexString;
++ (UIColor *)qm_colorWithHex:(nonnull NSString *)hex;
+- (NSString *)qm_hexString;
 
-+ (UIImage *)imageWith:(NSString *)hexString size:(CGSize)size;
++ (UIImage *)qm_imageWith:(NSString *)hexString size:(CGSize)size;
 
 @end
 

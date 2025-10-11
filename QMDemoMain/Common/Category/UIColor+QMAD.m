@@ -9,7 +9,7 @@
 
 @implementation UIColor (QMAD)
 
-+ (UIColor *)colorWithHex:(nonnull NSString *)hex {
++ (UIColor *)qm_colorWithHex:(nonnull NSString *)hex {
     
     NSString *hexS = hex;
     UIColor *color = [UIColor clearColor];
@@ -56,7 +56,7 @@
     return color;
 }
 
-- (NSString *)hexString {
+- (NSString *)qm_hexString {
     
     if (!self) return nil;
     
@@ -84,8 +84,8 @@
     return [NSString stringWithFormat:@"#%@", string];
 }
 
-+ (UIImage *)imageWith:(NSString *)hexString size:(CGSize)size {
-    UIColor *color = [self colorWithHex:hexString];
++ (UIImage *)qm_imageWith:(NSString *)hexString size:(CGSize)size {
+    UIColor *color = [self qm_colorWithHex:hexString];
     if (!color || size.width <= 0 || size.height <= 0)
         return nil;
     CGRect rect = CGRectMake(0.0f, 0.0f, size.width, size.height);
