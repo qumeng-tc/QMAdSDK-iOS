@@ -35,7 +35,6 @@
 		8555977A2CE71EBF0072C7E1 /* QMSplashContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855597792CE71EBF0072C7E1 /* QMSplashContainerViewController.m */; };
 		85E1EA882D0848D300ED6C07 /* QMFeedSingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E1EA872D0848D300ED6C07 /* QMFeedSingleViewController.m */; };
 		85E1EA8B2D0848E100ED6C07 /* QMNativeSingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E1EA8A2D0848E100ED6C07 /* QMNativeSingleViewController.m */; };
-		D349338D98FD8B5D869D4C48 /* libPods-QMAdSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2BE8EB4A8C1A35EC98E0BB /* libPods-QMAdSDKDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +61,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2BE264CD623A8D38CC2C349D /* Pods-QMAdSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMAdSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-QMAdSDKDemo/Pods-QMAdSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		84036BFA2CA64FE600F94917 /* QMFeedAdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMFeedAdCell.h; sourceTree = "<group>"; };
 		84036BFB2CA64FE600F94917 /* QMFeedAdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMFeedAdCell.m; sourceTree = "<group>"; };
 		84036BFC2CA64FE600F94917 /* QMFeedDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMFeedDemoViewController.h; sourceTree = "<group>"; };
@@ -122,8 +120,6 @@
 		85E1EA872D0848D300ED6C07 /* QMFeedSingleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMFeedSingleViewController.m; sourceTree = "<group>"; };
 		85E1EA892D0848E100ED6C07 /* QMNativeSingleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMNativeSingleViewController.h; sourceTree = "<group>"; };
 		85E1EA8A2D0848E100ED6C07 /* QMNativeSingleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMNativeSingleViewController.m; sourceTree = "<group>"; };
-		8A2BE8EB4A8C1A35EC98E0BB /* libPods-QMAdSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QMAdSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D19367751626111CAFEF9369 /* Pods-QMAdSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMAdSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-QMAdSDKDemo/Pods-QMAdSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +127,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D349338D98FD8B5D869D4C48 /* libPods-QMAdSDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +145,6 @@
 			children = (
 				84C28B932BD15775009A1A6D /* InnoSecureSDK.framework */,
 				84C28B942BD15775009A1A6D /* libInnoSDK.a */,
-				8A2BE8EB4A8C1A35EC98E0BB /* libPods-QMAdSDKDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -320,8 +314,6 @@
 		EB41EA6CB58614D09791375E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D19367751626111CAFEF9369 /* Pods-QMAdSDKDemo.debug.xcconfig */,
-				2BE264CD623A8D38CC2C349D /* Pods-QMAdSDKDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -333,12 +325,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8446A00E2B8345B300C2BED4 /* Build configuration list for PBXNativeTarget "QMAdSDKDemo" */;
 			buildPhases = (
-				8448CADC8407D48C6E6776A9 /* [CP] Check Pods Manifest.lock */,
 				84469FF12B8345B100C2BED4 /* Sources */,
 				84469FF22B8345B100C2BED4 /* Frameworks */,
 				84469FF32B8345B100C2BED4 /* Resources */,
 				8476D6512BD1357900E8F034 /* Embed Frameworks */,
-				DC4A0ABAF3AF851CC1AD95FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -424,48 +414,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		8448CADC8407D48C6E6776A9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QMAdSDKDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DC4A0ABAF3AF851CC1AD95FD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QMAdSDKDemo/Pods-QMAdSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QMAdSDKDemo/Pods-QMAdSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QMAdSDKDemo/Pods-QMAdSDKDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84469FF12B8345B100C2BED4 /* Sources */ = {
@@ -630,7 +578,6 @@
 		};
 		8446A00F2B8345B300C2BED4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D19367751626111CAFEF9369 /* Pods-QMAdSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -661,7 +608,6 @@
 		};
 		8446A0102B8345B300C2BED4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BE264CD623A8D38CC2C349D /* Pods-QMAdSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
