@@ -1,0 +1,6 @@
+module Pods_QMAdSDKDemo {
+  umbrella header "Pods-QMAdSDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
